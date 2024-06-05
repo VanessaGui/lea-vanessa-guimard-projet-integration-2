@@ -1,0 +1,116 @@
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    height: 10vh;
+    align-items: center;
+}
+.container-logo{
+   grid-column: 1;
+   margin-left: 20rem;
+}
+.container-nav{
+    grid-column: 3;
+    margin-right: 20rem;
+}
+.container-list{
+    display: flex;
+    box-sizing: border-box;
+    width: 30rem;
+    justify-content: space-between;
+}
+.container-list a{
+    text-decoration: none;
+    color: gray;
+}
+.container-list a:hover{
+    color: black;
+}
+.lign:hover{
+    border-bottom: 1px solid darkgray;
+}
+.input-help{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.container-section1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    border-bottom: 1px solid gray;
+    align-items: center;
+}
+.container-text1{
+    grid-column: 1;
+    margin-left: 20rem;
+}
+.title{
+    font-size: 30px;
+    margin-bottom: 3rem;
+}
+.vertical-line{
+    border-left: 2px solid gray;
+    width: 25vw;
+}
+.paragraph{
+    color: gray;
+    margin:  2rem;
+}
+.button{
+    border: none;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+}
+.container-watches{
+    grid-column: 3;
+    width: 30vw;  
+}
+
+.container-section2{
+    display: flex;
+    margin: 5rem 20rem;
+    gap: 5rem;
+}
+.boxes{
+    width: 40%;
+}
+.paragraph-section2{
+    margin-top: 3rem;
+    line-height:1.5rem;
+}
+.points{
+    color: gray;
+    letter-spacing: 0.5rem;
+    font-size: 30px;
+}
+.other-button{
+    display: flex;
+    border: none;
+    background-color: white;
+}
