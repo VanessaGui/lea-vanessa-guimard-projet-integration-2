@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apple</title>
     <meta name="description" content="apple watches">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -15,14 +14,14 @@
     <header>
         <nav class="navbar">
             <div class="container-logo">
-                <a href="#"><img class="logo" src="img/logo.svg" alt="apple logo"></a>
+                <a href="#"><img src="img/logo.svg" alt="apple logo"></a>
             </div>
             <div class="container-nav">
-                <ul class="container-list">
-                    <li class="lign roboto-light"><a href="#">About</a></li>
-                    <li class="lign roboto-light"><a href="#">Offers</a></li>
-                    <li class="lign roboto-light"><a href="#">Services</a></li>
-                    <li class="roboto-light"><input class="input-help" type="text" name="help" placeholder="How can we help you?"></a></li>
+                <ul class="container-list roboto-light">
+                    <li class="lign"><a href="#">About</a></li>
+                    <li class="lign"><a href="#">Offers</a></li>
+                    <li class="lign"><a href="#">Services</a></li>
+                    <li><input class="input-help roboto-light" type="text" name="help" placeholder="How can we help you?"></li>
                 </ul>
             </div>
         </nav>
@@ -30,51 +29,52 @@
     <main>
         <section class="container-section1">
             <div class="container-text1">
-                <h1 class="roboto-bold title">Freedom calls.</h1>
+                <h1 class="roboto-bold">Freedom calls.</h1>
                 <div class="vertical-line">
-                    <p class="roboto-light paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quos non accusamus mollitia expedita quaerat ipsa? Provident corrupti quisquam laborum aliquam facere sint fugit iure maxime molestias architecto. A, corrupti.</p>
+                    <p class="roboto-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quos non accusamus mollitia expedita quaerat ipsa? Provident corrupti quisquam laborum aliquam facere sint fugit iure maxime molestias architecto. A, corrupti.</p>
                 </div>
-                <button class="button">WATCH THE KEYNOTE</button>
+                <button class="button roboto-light">WATCH THE KEYNOTE</button>
             </div>
-            <div class="container-watches">
-                <img class="watches roboto-light" src="img/watches.jpg" alt="watch">
-            </div>
+            <div class="container-watches"></div>
         </section>
         <section class="roboto-regular container-section2">
                 <div class="boxes">
                     <h2 class="roboto-bold">KNOW YOUR RUNS. IN AND OUT.</h2>
-                    <p class="paragraph-section2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti labore minima natus eius voluptatum vero earum inventore, enim ipsam magni recusandae quidem iusto quam illo placeat.</p>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti labore minima natus eius voluptatum vero earum inventore, enim ipsam magni recusandae quidem iusto quam illo placeat.</p>
                     <span class="points">...</span>
                 </div>
                 <div class="boxes">
                     <h2 class="roboto-bold">RUN IN GOOD SPIRITS.</h2>
-                    <p class="paragraph-section2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quam earum unde aut commodi, porro perferendis distinctio quis laudantium harum deserunt enim molestias rem quas ex.</p>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quam earum unde aut commodi, porro perferendis distinctio quis laudantium harum deserunt enim molestias rem quas ex.</p>
                     <span class="points">...</span>
                 </div>
                 <div class="boxes">
                     <h2 class="roboto-bold">JUST DO IT. SUNDAY.</h2>
                     <div>
-                        <p class="paragraph-section2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum tempore temporibus nostrum itaque, consequatur fuga expedita.</p>
-                        <button class="other-button"><hr>LEARN MORE</button>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum tempore temporibus nostrum itaque, consequatur fuga expedita. Lorem, ipsum.</p>
+                        <button class="other-button roboto-bold"><span></span>LEARN MORE</button>
                     </div>
                 </div>
         </section>
-        <section>
-            <div>
-                <h2>Nike Sport Band. Light. Flexible. Breathable.</h2>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quam aliquid totam explicabo molestiae, cupiditate reprehenderit sed in, eveniet dolor consectetur repudiandae! Sapiente accusamus aut iste soluta quod repudiandae esse provident nemo aspernatur eius. Officia, in eveniet eligendi saepe totam magni assumenda ipsum sed nesciunt ipsam aspernatur cum, dignissimos quo voluptatibus cupiditate a rem at. Odit tenetur incidunt reiciendis voluptate? Velit quam numquam id hic voluptas labore corrupti ex sit, ad quidem voluptatem sed earum eaque iste, neque placeat! Doloribus?</p>
+        <section class="container-section3">
+            <div class="boxes">
+                <h2 class="roboto-bold">Nike Sport Band. Light. Flexible. Breathable.</h2>
+                <div class="vertical-line roboto-light">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quam aliquid totam explicabo molestiae, cupiditate reprehenderit sed in, eveniet dolor consectetur repudiandae! Sapiente accusamus aut iste soluta quod repudiandae esse provident nemo aspernatur eius.</p>
                 </div>
-                <button>BUY NOW</button>
+                <button class="button roboto-light">BUY NOW</button>
+            </div>
+            <div class="preview">
+                <img src="img/preview.jpg" alt="watches running">
             </div>
         </section>
-        <section>
-            <div>
-                <h2>Take control of your health.</h2>
-                <div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, alias perspiciatis. Veritatis placeat corrupti expedita ducimus tempore ut rerum, officia, atque animi incidunt officiis nam a nihil eum perspiciatis voluptatem dolor explicabo ipsum beatae at voluptatum dolorem. Nesciunt aperiam consequatur nostrum dolores nobis placeat? Porro sit incidunt dolor quod commodi.</p>
+        <section class="container-section4">
+            <div class="container-text2">
+                <h2 class="roboto-bold">Take control of your health.</h2>
+                <div class="vertical-line2">
+                    <p class="roboto-regular">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, alias perspiciatis. Veritatis placeat corrupti expedita ducimus tempore ut rerum, officia, atque animi incidunt officiis nam a nihil eum perspiciatis voluptatem dolor explicabo ipsum beatae at voluptatum dolorem.</p>
                 </div>
-                <button>EXPLORE FEATURES</button>
+                <button class="button roboto-light">EXPLORE FEATURES</button>
             </div>
         </section>
     </main>

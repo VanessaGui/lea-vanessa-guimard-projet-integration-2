@@ -1,0 +1,235 @@
+/* reset css */ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    height: 10vh;
+    align-items: center;
+    margin-right: 15%;
+}
+.container-logo{
+   grid-column: 1;
+   margin-left: 60%;
+}
+.container-nav{
+    grid-column: 3;
+}
+.container-list{
+    display: flex;
+    box-sizing: border-box;
+    width: 30rem;
+    justify-content: space-between;
+}
+.container-list a{
+    text-decoration: none;
+    color: gray;
+}
+.container-list a:hover{
+    color: black;
+}
+.lign:hover{
+    border-bottom: 1px solid darkgray;
+}
+.input-help{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+
+.container-section1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    height: 70vh;
+}
+.container-text1{
+    grid-column: 1;
+    margin-left: 50%;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 3rem;
+}
+.container-text1 div p{
+    line-height:1.5rem;
+}
+.vertical-line{
+    border-left: 2px solid gray;
+    width: 25vw;
+}
+.vertical-line p{
+    color: gray;
+    margin:  2rem;
+}
+.button{
+    border: none;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+}
+.button:hover{
+    background-color: crimson;
+}
+.container-watches{
+    grid-column: 3;
+    width: 25vw;
+    height: 70vh;
+    margin-right: 0;
+    background-image: url("../img/watches.jpg");
+    background-size: cover;
+    justify-self: flex-end;
+}
+
+.container-section2{
+    display: flex;
+    margin: 5rem 17%;
+    gap: 5rem;
+}
+.boxes{
+    width: 40%;
+}
+.boxes p, .boxes div p{
+    margin-top: 3rem;
+    line-height:1.5rem;
+}
+.points{
+    color: gray;
+    letter-spacing: 0.5rem;
+    font-size: 30px;
+}
+.other-button{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: white;
+    color: tomato;
+    margin-top: 10px;
+}
+.other-button span{
+    background-color: tomato;
+    width: 20px;
+    height: 2px;
+    margin-right: 10px;
+}
+.other-button:hover{
+    font-size: 15px; 
+}
+.other-button span:hover{
+    width: 30px;
+}
+.container-section3{
+    margin: 5rem 17%;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+}
+.container-section3 h2{
+    font-size: 40px;
+    width: 25rem;
+    margin-bottom: 3rem;
+}
+.preview{
+    width: 60%;
+    height: 40rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.preview img{
+    object-fit: cover;
+    width: 75%;
+}
+
+.container-section4{
+    background-image: url("../img/runners.jpg");
+    background-size: cover;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.container-text2 {
+    width: 20%;
+    color: white;
+    margin: 20rem;
+}
+.container-text2 h2{
+    font-size: 40px;
+    margin-bottom: 3rem;
+}
+.container-text1 div p{
+    line-height:1.5rem;
+}
+.vertical-line2{
+    border-left: 2px solid white;
+    width: 25vw;
+}
+.vertical-line2 p{
+    color: white;
+    margin:  2rem;
+}
